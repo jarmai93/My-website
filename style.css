@@ -1,0 +1,52 @@
+body{ 
+    position:relative;
+    background-color: black;
+    background-image: url("pug.jpg");
+    background-size: cover;
+}
+
+
+header {
+    margin-bottom:80px;
+    margin-top:80px;
+}
+
+
+header ul{
+    list-style-type:none;
+    text-align:center; 
+}
+
+
+header li{
+    display:inline;
+    margin:20px;
+}
+
+
+header a{
+    text-decoration:none;
+    color:black;
+    font-family: "Bradley Hand ITC";
+    font-weight: bolder;
+    font-size:30px
+}
+
+
+header a:hover{
+    color:hotpink;
+    text-decoration-line:underline;
+}
+
+
+section{
+    font-family:"Bradley Hand ITC";
+    font-weight:bolder;
+    width:50%;
+    margin:auto;
+}
+
+
+div{
+    background-color: white;
+}
