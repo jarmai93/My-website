@@ -29,7 +29,7 @@ header li {
 }
 header a {
 	color: black;
-    transition: 0.25s;
+    -webkit-transition: 0.25s;
 	text-decoration: none;
 }
 header a:hover {
