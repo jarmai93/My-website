@@ -9,13 +9,17 @@ body {
 header {
     margin-bottom: 80px;
     margin-top:80px;
-      
+	border-top: 1px solid #FFD1DC;
+	border-bottom: 1px solid #FFD1DC;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 80px;
+    margin-top:80px;
 }
 
 header ul {
     list-style-type: none;
     text-align: center;
-
 }
 
 header li {
@@ -23,10 +27,14 @@ header li {
     margin: 20px;
     font-size: 30px;
 }
-
+header a {
+	color: black;
+    transition: 0.25s;
+	text-decoration: none;
+}
 header a:hover {
-    color:hotpink;
-
+    color: #D991A2;
+	text-decoration: underline;
 }
 
 
@@ -36,6 +44,8 @@ header a:hover {
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     padding: 0 4px;
+	width: 50%;
+	margin: auto;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -51,20 +61,20 @@ header a:hover {
     vertical-align: middle;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/* Responsive layout - makes a two column-layout instead of four columns 
 @media screen and (max-width: 800px) {
     .column {
         -ms-flex: 50%;
         flex: 50%;
         max-width: 50%;
     }
-}
+}*/
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other 
 @media screen and (max-width: 600px) {
     .column {
         -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
     }
-}
+}*/
