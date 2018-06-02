@@ -59,6 +59,10 @@ header a:hover {
 .column img {
     margin-top: 8px;
     vertical-align: middle;
+	-webkit-transition: 0.4s;
+}
+.column img:hover {
+	-webkit-filter: opacity(70%);
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns 
