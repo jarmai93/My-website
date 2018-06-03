@@ -59,7 +59,7 @@ header a:hover {
 .column img {
     margin-top: 8px;
     vertical-align: middle;
-	-webkit-transition: 0.4s;
+	-webkit-transition: 0.5s;
 }
 .column img:hover {
 	-webkit-filter: opacity(70%);

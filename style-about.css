@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"Bradley Hand ITC"
+}
+
+header {
+    margin-bottom: 80px;
+    margin-top:80px;
+	border-top: 1px solid #FFD1DC;
+	border-bottom: 1px solid #FFD1DC;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 80px;
+    margin-top:80px;
+}
+
+header ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header li {
+    display: inline;
+    margin: 20px;
+    font-size: 30px;
+}
+header a {
+	color: black;
+    -webkit-transition: 0.25s;
+	text-decoration: none;
+}
+header a:hover {
+    color: #D991A2;
+	text-decoration: underline;
+}
+
+section{
+    text-align:center;
+    
+}
