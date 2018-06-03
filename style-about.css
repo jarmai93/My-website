@@ -16,7 +16,7 @@ header {
 	margin: auto;
 	margin-bottom: 80px;
     margin-top:80px;
-    font-family:"Bradley Hand ITC"
+    font-family:"bradhitc"
 }
 
 header ul {
@@ -47,4 +47,9 @@ section{
 @font-face {
     font-family:neuzeit;
     src: url(font/Neuzeit-Grotesk-W01-Regular.otf);
+}
+
+@font-face {
+    font-family:bradhitc;
+    src: url(font/BRADHITC.ttf);
 }
