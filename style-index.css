@@ -3,7 +3,6 @@
 }
 
 body {
-    font-family:"bradhitc"
 }
 
 header {
@@ -15,6 +14,7 @@ header {
 	margin: auto;
 	margin-bottom: 80px;
     margin-top:80px;
+    font-family:bradhitc;
 }
 
 header ul {
