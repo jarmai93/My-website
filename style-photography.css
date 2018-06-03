@@ -16,7 +16,7 @@ header {
 	margin: auto;
 	margin-bottom: 80px;
     margin-top:80px;
-    font-family:"Bradley Hand ITC"
+    font-family:"Bradley Hand ITC";
 }
 
 header ul {
@@ -41,6 +41,8 @@ header a:hover {
 
 section{
     text-align:center;
+    width:50%;
+    margin:auto;
     
 }
 
