@@ -16,7 +16,7 @@ header {
 	margin: auto;
 	margin-bottom: 80px;
     margin-top:80px;
-    font-family:"bradhitc";
+    font-family:bradhitc;
 }
 
 header ul {
@@ -53,5 +53,5 @@ section{
 
 @font-face {
     font-family:bradhitc;
-    src: url(font/BRADHITC.ttf);
+    src: url(font/bradhitc.ttf);
 }
