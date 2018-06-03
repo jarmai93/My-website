@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family:"Bradley Hand ITC"
+    font-family:"bradhitc"
 }
 
 header {
@@ -63,6 +63,11 @@ header a:hover {
 }
 .column img:hover {
 	-webkit-filter: opacity(70%);
+}
+
+@font-face {
+    font-family:bradhitc;
+    src: url(font/bradhitc.ttf);
 }
 
   /*Responsive layout - makes a two column-layout instead of four columns 
