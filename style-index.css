@@ -26,6 +26,7 @@ header li {
     display: inline;
     margin: 20px;
     font-size: 30px;
+    
 }
 header a {
 	color: black;
@@ -52,13 +53,17 @@ header a:hover {
 .column {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
-    max-width: 25%;
+    max-width: 100%;
     padding: 0 4px;
 }
 
 .column img {
     margin-top: 8px;
     vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    max-width: 600px;
+    
 	-webkit-transition: 0.5s;
 }
 .column img:hover {
@@ -69,6 +74,11 @@ header a:hover {
     font-family:bradhitc;
     src: url(font/bradhitc.ttf);
 }
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .column, .column, .column, .row {
+    width:100%;
 
   /*Responsive layout - makes a two column-layout instead of four columns 
 @media screen and (max-width: 800px) {
