@@ -3,6 +3,8 @@
 }
 
 body {
+	font-family:neuzeit;
+    color:darkslategray;
 }
 
 header {
@@ -38,6 +40,12 @@ header a:hover {
 	text-decoration: underline;
 }
 
+section{
+    text-align:center;
+    width:50%;
+    margin:auto;
+    
+}
 
 .row {
     display: -ms-flexbox; /* IE10 */
@@ -73,6 +81,11 @@ header a:hover {
 @font-face {
     font-family:bradhitc;
     src: url(font/bradhitc.ttf);
+}
+
+@font-face {
+    font-family:neuzeit;
+    src: url(font/Neuzeit-Grotesk-W01-Regular.otf);
 }
 
 @media only screen and (max-width:620px) {
